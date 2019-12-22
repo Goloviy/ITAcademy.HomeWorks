@@ -3,6 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hw_01_assets", "hw_01_assets", "{82B966CC-D2FB-4BA5-916F-E9AA1D7DABAE}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\Иван\Desktop\hw_01_assets\HM01Goloviy.drawio = ..\..\..\Users\Иван\Desktop\hw_01_assets\HM01Goloviy.drawio
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm_04 Task 1", "hm_04 Task 1\hm_04 Task 1.csproj", "{DABBA2DB-A1C1-4E58-98E9-B645349283B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm_04 Task 2", "hm_04 Task 2\hm_04 Task 2.csproj", "{54FCB63A-66DC-4678-9DE6-C93AB8822316}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW03.Task1", "HW03.Task1\HW03.Task1.csproj", "{4AF79536-7A7F-41EC-AFDC-30AC1A6145DF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW03.Task2", "HW03.Task2\HW03.Task2.csproj", "{12B3DF84-3406-4ECB-B717-900E06EF260B}"
@@ -10,6 +19,20 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW03.Task1.2", "HW03.Task1.2\HW03.Task1.2.csproj", "{8DA861CC-5EDA-4B92-9CE8-1D3E753A3609}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DABBA2DB-A1C1-4E58-98E9-B645349283B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABBA2DB-A1C1-4E58-98E9-B645349283B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABBA2DB-A1C1-4E58-98E9-B645349283B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABBA2DB-A1C1-4E58-98E9-B645349283B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54FCB63A-66DC-4678-9DE6-C93AB8822316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54FCB63A-66DC-4678-9DE6-C93AB8822316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54FCB63A-66DC-4678-9DE6-C93AB8822316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54FCB63A-66DC-4678-9DE6-C93AB8822316}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

@@ -3,11 +3,18 @@
 
 namespace AssemblyTwo
 {
-    class Program
+    public class User
     {
-        static void Main(string[] args)
+        
+        public void DisplayPublic()
         {
-           
+
         }
+
+        internal void DisplayInteral()
+        {
+
+        }
+
     }
 }

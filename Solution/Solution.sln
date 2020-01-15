@@ -1,14 +1,8 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hw_01_assets", "hw_01_assets", "{82B966CC-D2FB-4BA5-916F-E9AA1D7DABAE}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Users\Иван\Desktop\hw_01_assets\HM01Goloviy.drawio = ..\..\..\Users\Иван\Desktop\hw_01_assets\HM01Goloviy.drawio
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW.02", "HW.02\HW.02.csproj", "{647B3BC4-0910-4F09-B53A-45A9074802C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm_09", "hm_09\hm_09.csproj", "{FD93F5DB-B885-460C-9155-00C6D6CE4174}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,10 +10,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{647B3BC4-0910-4F09-B53A-45A9074802C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{647B3BC4-0910-4F09-B53A-45A9074802C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{647B3BC4-0910-4F09-B53A-45A9074802C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{647B3BC4-0910-4F09-B53A-45A9074802C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD93F5DB-B885-460C-9155-00C6D6CE4174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD93F5DB-B885-460C-9155-00C6D6CE4174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD93F5DB-B885-460C-9155-00C6D6CE4174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD93F5DB-B885-460C-9155-00C6D6CE4174}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

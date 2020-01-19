@@ -8,9 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hw_01_assets", "hw_01_asset
 		..\..\..\Users\Иван\Desktop\hw_01_assets\HM01Goloviy.drawio = ..\..\..\Users\Иван\Desktop\hw_01_assets\HM01Goloviy.drawio
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm_04 Task 1", "hm_04 Task 1\hm_04 Task 1.csproj", "{DABBA2DB-A1C1-4E58-98E9-B645349283B6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm_04 Task 2", "hm_04 Task 2\hm_04 Task 2.csproj", "{54FCB63A-66DC-4678-9DE6-C93AB8822316}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm_10.Task01", "hm_10.Task01\hm_10.Task01.csproj", "{2FB14962-8537-4835-AA51-6548417B485E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,14 +16,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DABBA2DB-A1C1-4E58-98E9-B645349283B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DABBA2DB-A1C1-4E58-98E9-B645349283B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DABBA2DB-A1C1-4E58-98E9-B645349283B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DABBA2DB-A1C1-4E58-98E9-B645349283B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54FCB63A-66DC-4678-9DE6-C93AB8822316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54FCB63A-66DC-4678-9DE6-C93AB8822316}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54FCB63A-66DC-4678-9DE6-C93AB8822316}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54FCB63A-66DC-4678-9DE6-C93AB8822316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB14962-8537-4835-AA51-6548417B485E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB14962-8537-4835-AA51-6548417B485E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB14962-8537-4835-AA51-6548417B485E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB14962-8537-4835-AA51-6548417B485E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

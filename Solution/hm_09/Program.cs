@@ -14,6 +14,8 @@ namespace hm_09
             Check_in check_In = new Check_in();
             check_In.Passenger = passenger;
 
+            SecurityCheck securityCheck = new SecurityCheck();
+            securityCheck.Passenger = passenger;
             
             preliminaryActions.Greeting();
             preliminaryActions.FlightNumber();
@@ -36,6 +38,10 @@ namespace hm_09
             {
                 check_In.PassBoarding(Passenger.passport, passenger.AirTicket);
             }
+
+            securityCheck.HandBuggage();
+            securityCheck.ForbiddenThings();
+
             passenger.InfoPassenger();          
         }
     }

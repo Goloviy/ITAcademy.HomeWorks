@@ -107,6 +107,36 @@ namespace hm_09
             }
 
         }
+        
+        private bool _handBuggage;
+        public bool HandBuggage
+        {
+            get
+            {
+                return _handBuggage;
+            }
+
+            set
+            {
+                _handBuggage = value;
+            }
+
+        }
+
+        public bool _forbiddenThings;
+        public bool ForbiddenThings
+        {
+            get
+            {
+                return _forbiddenThings;
+            }
+
+            set
+            {
+                _forbiddenThings = value;
+            }
+
+        }
 
         public void InfoPassenger()
         {

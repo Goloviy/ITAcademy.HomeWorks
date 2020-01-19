@@ -25,14 +25,12 @@ namespace hm_09
             preliminaryActions.NumberDesk();
             passenger.AirTicket = preliminaryActions.AvailableTicket();
             passenger.ElectronicRegistration = preliminaryActions.ElectronicRegistration();                      
-           
-            
+                       
             check_In.Greeting();
             
             passenger.AvailableBaggage = check_In.AvailableBaggage();
             passenger.WeightBaggage = check_In.WeightBaggage(passenger.AvailableBaggage);
-            
-            
+                        
             if (passenger.ElectronicRegistration == true && passenger.AirTicket == true)
             {
                 check_In.PassBoarding(Passenger.passport);

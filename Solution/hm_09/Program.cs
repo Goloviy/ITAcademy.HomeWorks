@@ -16,6 +16,9 @@ namespace hm_09
 
             SecurityCheck securityCheck = new SecurityCheck();
             securityCheck.Passenger = passenger;
+
+            PassportControl passportControl = new PassportControl();
+            passportControl.Passenger = passenger;
             
             preliminaryActions.Greeting();
             preliminaryActions.FlightNumber();
@@ -41,6 +44,9 @@ namespace hm_09
 
             securityCheck.HandBuggage();
             securityCheck.ForbiddenThings();
+
+            passportControl.Greeting();
+            passportControl.PersonalityCheck(Passenger.passport, passportControl.Visa(), passenger.Name);
 
             passenger.InfoPassenger();          
         }

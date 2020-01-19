@@ -108,7 +108,7 @@ namespace hm_09
 
         }
         
-        private bool _handBuggage;
+        bool _handBuggage;
         public bool HandBuggage
         {
             get
@@ -123,7 +123,7 @@ namespace hm_09
 
         }
 
-        public bool _forbiddenThings;
+        bool _forbiddenThings;
         public bool ForbiddenThings
         {
             get
@@ -138,24 +138,75 @@ namespace hm_09
 
         }
 
+        bool _visa;
+
+        public bool Visa
+        {
+            get
+            {
+                return _visa;
+            }
+
+            set
+            {
+                _visa = value;
+            }
+        }
+
+        bool _personalityCheck;
+
+        public bool PersonalityCheck
+        {
+            get
+            {
+                return _personalityCheck;
+            }
+
+            set
+            {
+                _personalityCheck = value;
+            }
+
+        }
+
         public void InfoPassenger()
         {
+           Console.WriteLine("Информация о пассажир:");
+
            Console.WriteLine($"Имя пассажира - {_name}.");
+
            Console.WriteLine($"Номер рейса - {_flightNumber}.");
+
            if(_airTicket == true)
             {
                 Console.WriteLine("Наличие билета: есть.");
             }
+
            if(_availableBaggage == true)
-            {
+           {
                 Console.WriteLine("Наличие багажа: есть.");
+                Console.WriteLine($"Вес багажа: {_weightBaggage}кг.");
             }
-            Console.WriteLine($"Вес багажа: {_weightBaggage}кг.");
-            if(_passBoarding == true)
+           if(_availableBaggage == false)
+           {
+                Console.WriteLine("Наличие багажа: нету.");
+                Console.WriteLine($"Вес багажа: 0 кг.");
+           }           
+
+           if(_passBoarding == true)
             {
                 Console.WriteLine("Наличие посадочного талона: есть.");
             }
+            
+           if (_visa == true)
+           {
+                Console.WriteLine("Наличие визы: есть.");
+           }
 
+           if (_personalityCheck == true)
+            {
+                Console.WriteLine("Пасажир прошел паспортный контроль.");
+            }
         }
     }
 }

@@ -6,7 +6,8 @@ namespace hm_09
 {
     class Passenger
     {   
-        const bool passport = true;        
+        public const bool passport = true;        
+        
         string _name;
         public string Name
         {
@@ -91,5 +92,40 @@ namespace hm_09
             }
         }
 
+        bool _electronicRegistration;
+        
+        public bool ElectronicRegistration
+        {
+            get
+            {
+                return _electronicRegistration;
+            }
+
+            set
+            {
+                _electronicRegistration = value;
+            }
+
+        }
+
+        public void InfoPassenger()
+        {
+           Console.WriteLine($"Имя пассажира - {_name}.");
+           Console.WriteLine($"Номер рейса - {_flightNumber}.");
+           if(_airTicket == true)
+            {
+                Console.WriteLine("Наличие билета: есть.");
+            }
+           if(_availableBaggage == true)
+            {
+                Console.WriteLine("Наличие багажа: есть.");
+            }
+            Console.WriteLine($"Вес багажа: {_weightBaggage}кг.");
+            if(_passBoarding == true)
+            {
+                Console.WriteLine("Наличие посадочного талона: есть.");
+            }
+
+        }
     }
 }

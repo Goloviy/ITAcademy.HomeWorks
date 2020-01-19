@@ -8,11 +8,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hw_01_assets", "hw_01_asset
 		..\..\..\Users\Иван\Desktop\hw_01_assets\HM01Goloviy.drawio = ..\..\..\Users\Иван\Desktop\hw_01_assets\HM01Goloviy.drawio
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm_10.Task01", "hm_10.Task01\hm_10.Task01.csproj", "{2FB14962-8537-4835-AA51-6548417B485E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm_10.Task01", "hm_10.Task01\hm_10.Task01.csproj", "{2FB14962-8537-4835-AA51-6548417B485E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm_10.Task02", "hm_10.Task02\hm_10.Task02.csproj", "{EE515A0A-3ED0-4111-A1F5-E9EDC3156154}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm_10.Task02", "hm_10.Task02\hm_10.Task02.csproj", "{EE515A0A-3ED0-4111-A1F5-E9EDC3156154}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm_10.Task03", "hm_10.Task03\hm_10.Task03.csproj", "{AF68DB7A-29B5-49F3-8713-6FC2CCCCC805}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm_10.Task03", "hm_10.Task03\hm_10.Task03.csproj", "{AF68DB7A-29B5-49F3-8713-6FC2CCCCC805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm_10.Task04", "hm_10.Task04\hm_10.Task04.csproj", "{E9EF3AC0-9574-4C27-B6B1-8C51FB514BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm_10.Task05", "hm_10.Task05\hm_10.Task05.csproj", "{07CBD97D-78CA-41E5-A807-3F94FDD1AE12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +36,14 @@ Global
 		{AF68DB7A-29B5-49F3-8713-6FC2CCCCC805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF68DB7A-29B5-49F3-8713-6FC2CCCCC805}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF68DB7A-29B5-49F3-8713-6FC2CCCCC805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9EF3AC0-9574-4C27-B6B1-8C51FB514BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9EF3AC0-9574-4C27-B6B1-8C51FB514BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9EF3AC0-9574-4C27-B6B1-8C51FB514BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9EF3AC0-9574-4C27-B6B1-8C51FB514BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07CBD97D-78CA-41E5-A807-3F94FDD1AE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CBD97D-78CA-41E5-A807-3F94FDD1AE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07CBD97D-78CA-41E5-A807-3F94FDD1AE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CBD97D-78CA-41E5-A807-3F94FDD1AE12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

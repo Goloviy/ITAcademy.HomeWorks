@@ -1,0 +1,8 @@
+2020-01-26 20:59:56,791 INFO 1 hm11.Logger - Start program
+2020-01-26 20:59:56,838 INFO 1 hm11.Logger - Greate circle
+2020-01-26 20:59:56,852 INFO 1 hm11.Logger - Output to the console
+2020-01-26 20:59:56,962 INFO 1 hm11.Logger - Greate square
+2020-01-26 20:59:57,154 INFO 1 hm11.Logger - Output to the console
+2020-01-26 20:59:57,302 INFO 1 hm11.Logger - Greate triangle
+2020-01-26 20:59:57,321 INFO 1 hm11.Logger - Output to the console
+2020-01-26 20:59:57,352 INFO 1 hm11.Logger - Program completed successfullye

@@ -31,12 +31,9 @@ namespace hm11
                 _sideFigure = value;
             }
         }
-
-
-        public virtual double AreaFugure(double side)
-        {
-            side = _sideFigure;
-            return side*side;
-        }
+        public virtual double AreaFugure()
+        {            
+            return SideFigure*SideFigure;
+        }    
     }
 }

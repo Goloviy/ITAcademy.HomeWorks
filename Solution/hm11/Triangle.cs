@@ -4,11 +4,16 @@ using System.Text;
 
 namespace hm11
 {
-    class Triangle: Square
+    class Triangle: Figure
     {
-        public override double AreaFugure(double side)
+        public override double AreaFugure()
         {
-            return Math.Sqrt(3) / 4 * side * side;
+            return Math.Sqrt(3) / 4 * SideFigure * SideFigure;
+        }
+        public Triangle(string nameFigure, double sideFigure)
+        {
+            NameFigure = nameFigure;
+            SideFigure = sideFigure;
         }
     }
 }

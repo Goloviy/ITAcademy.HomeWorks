@@ -4,11 +4,16 @@ using System.Text;
 
 namespace hm11
 {
-    class Circle : Square
+    class Circle : Figure
     {
-        public override double AreaFugure(double side)
+        public override double AreaFugure()
         {
-            return  side * side * Math.PI;
+            return  SideFigure * SideFigure * Math.PI;
+        }
+        public Circle(string nameFigure, double radiusFigure)
+        {
+            NameFigure = nameFigure;
+            SideFigure = radiusFigure;
         }
     }
 }
